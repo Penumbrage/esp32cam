@@ -28,6 +28,7 @@ namespace pins {
 
 /** @brief Pin definition for AI Thinker ESP32-CAM. */
 constexpr Pins AiThinker{
+  /* Code for the AiThinker ESP32 CAM Module
   D0: 5,
   D1: 18,
   D2: 19,
@@ -44,6 +45,26 @@ constexpr Pins AiThinker{
   SCL: 27,
   RESET: -1,
   PWDN: 32,
+  */
+
+  // Code for the ESP32 Wrover Module
+  D0: 4,
+  D1: 5,
+  D2: 18,
+  D3: 19,
+  D4: 36,
+  D5: 39,
+  D6: 34,
+  D7: 35,
+  XCLK: 21,
+  PCLK: 22,
+  VSYNC: 25,
+  HREF: 23,
+  SDA: 26,
+  SCL: 27,
+  RESET: -1,
+  PWDN: -1,
+
 };
 
 /** @brief Pin definition for M5Stack M5Camera. */
